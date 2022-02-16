@@ -1,0 +1,45 @@
+#chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 35px;
+}
+
+#chat-form input {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 2px #63707e;
+    background-color: #ffffff21;
+    color: #63707e;
+    text-indent: 15px;
+}
+
+.message {
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.message p {
+    font-size: 16px;
+    color: #63707e;
+    padding: 0;
+}
+
+#span-user {
+    font-size: 18px;
+}
+
+.ul-channel {
+    color: #ff9200;
+}
+
+#chat-messages {
+    min-height: 450px;
+    ;
+    overflow: auto;
+}
